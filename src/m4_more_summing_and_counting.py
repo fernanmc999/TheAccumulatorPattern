@@ -177,6 +177,10 @@ def factorial(n):
         factorial(5) returns 5 x 4 x 3 x 2 x 1, that is, 120.
         factorial(0) returns 1 (by definition).
     """
+    factorial=0
+    for k in range(n):
+        factorial += n*(n-1)
+    return factorial
     # ------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
     #   Note that you should write its TEST function first (above).
